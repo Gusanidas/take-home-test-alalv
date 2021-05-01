@@ -1,0 +1,12 @@
+#header {
+  padding: 30px;
+  text-align: center;
+  background: #00008B;
+  color: white;
+  font-size: 40px;
+}
+
+.input_form {
+    width:600px;
+    height:50px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='format.css')}}" />
+    <title>Kheiron Calculator</title>
+</head>
+<body>
+    <div id="header"> Kheiron Calculator </div>
+    <form action="{{url_for('home')}}" method="POST">
+      Prefix Format:<br>
+      <input type="text" name="prefix_input" class = "input_form">
+      <br>
+      Output: {{prefix_output}}
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <br>
+    <form action="{{url_for('home')}}" method="POST" >
+      Infix Format:<br>
+      <input type="text" name="infix_input" class = "input_form">
+      <br>
+      Output: {{infix_output}}
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
