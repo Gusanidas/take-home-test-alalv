@@ -16,15 +16,15 @@ To deploy it in Heroku, gunicorn and flask are needed.
 
 Some basic test cases are included in *test_calculator.py*, and can be run with the following comand:
 
-'''
+```
 python test_calculator.py -v
-'''
+```
 
 ### CLI
 
 To run it as in the command line use:
 
-'''
+```
 python calculator.py
-'''
+```
 
