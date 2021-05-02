@@ -1,3 +1,7 @@
+""" 
+Flask application
+"""
+
 from flask import Flask, render_template, request
 from typing import Callable
 import calculator
