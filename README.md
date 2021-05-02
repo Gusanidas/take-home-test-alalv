@@ -22,9 +22,35 @@ python test_calculator.py -v
 
 ### CLI
 
-To run it as in the command line use:
+To run it in the command line use:
 
 ```
 python calculator.py
 ```
+It will execute an infite loop that computes the input as an expression in either prefix or infix format.
+```
+Current reading format is Infix, to change enter Prefix
+Enter input:
+> ( 1 + ( 2 * 3 ) )
+7
+Current reading format is Infix, to change enter Prefix
+Enter input:
+ > ( 2 / 2 )
+ 1
+ ```
+ The format can be changed by entering the desired format:
+ ```
+ Current reading format is Infix, to change enter Prefix
+Enter input:
+>Prefix
+Current reading format is Prefix, to change enter Infix
+Enter input:
+> + 1 * 2 3
+7
+Current reading format is Prefix, to change enter Infix
+Enter input:
+```
 
+### Implementation
+
+The code uses a recursive solutions, which means that for a large enough input (\approx 2000 operations) max recursion depth will be reached. 
