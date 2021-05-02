@@ -53,4 +53,4 @@ Enter input:
 
 ### Implementation
 
-The code uses a recursive solutions, which means that for a large enough input (\approx 2000 operations) max recursion depth will be reached. 
+The code uses a recursive solution, which means that for a large enough input (approx 2000 operations) max recursion depth will be reached. 
